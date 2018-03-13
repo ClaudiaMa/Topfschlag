@@ -8,10 +8,10 @@ html, body {
 }
 
 html {
-    
-    background-image: url(https://cdn.wallpapersafari.com/92/88/7RlNyT.jpg);
+    background-image: url(https://picsum.photos/1024/?image=1067);
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 body {
@@ -27,13 +27,6 @@ body {
     margin: 2em;
 }
 
-#container2 {
-    max-height: 80%;
-    overflow: scroll;
-    position: relative;    
-}
-
-
 h1, h2 {
     color: crimson;
     text-shadow: 0 0 1px rgba(0,0,0,0.5);
@@ -41,7 +34,7 @@ h1, h2 {
 }
 
 h2 {
-    color: #00008B;
+    color: deepskyblue;
 }
 
 input[type="text"] {
@@ -51,4 +44,3 @@ input[type="text"] {
     border: 1px solid grey;
     margin-bottom: 0.5em;
 }
-
