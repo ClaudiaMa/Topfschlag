@@ -6,5 +6,7 @@ package topfschlag.ejb;
  */
 public class AllergieBean {
     
-    hallpgfh
+    String huhu;
+            
+ 
 }
