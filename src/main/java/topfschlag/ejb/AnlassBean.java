@@ -10,4 +10,6 @@ import javax.ejb.Stateless;
 @Stateless
 public class AnlassBean {
     
+    //Hallo Test
+    
 }
