@@ -8,14 +8,14 @@
     <head>
         <meta charset="utf-8" />
         <title>Topfschlag</title>
-        <link rel="stylesheet" href="css/style.css" />
-
-        <!-- Bootstrap
+        
+        <!-- Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
--->
+
+        <link rel="stylesheet" href="css/style.css" />
         
     </head>
     <body>
@@ -48,7 +48,7 @@
                 </fieldset>
             </form>
             <h1>Zutaten</h1>
-            <form>
+            <form action="filter">
 
                 <fieldset>
                     <ul>
@@ -74,7 +74,7 @@
 
 
             <h1>Allergien</h1>
-            <form>
+            <form action="filter">
 
                 <fieldset>
                     <ul>
