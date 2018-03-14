@@ -7,7 +7,7 @@
 <template:base>
     
      <jsp:attribute name="content">
-         
+         test
     </jsp:attribute>
     
 </template:base>
