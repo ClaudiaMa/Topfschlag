@@ -8,9 +8,9 @@ html, body {
 }
 
 html {
-    background-image: url(https://picsum.photos/1024/?image=1067);
+    background-image: url(../hintergrund.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 }
 
@@ -21,26 +21,24 @@ body {
 }
 
 .container {
-    background: rgba(255,255,255,0.8);
+    background: rgba(153,255,105,0.8);
     border-radius: 0.5em;
     padding: 1em;
     margin: 2em;
 }
 
 h1, h2 {
-    color: crimson;
+    color: white;
     text-shadow: 0 0 1px rgba(0,0,0,0.5);
     margin: 0 0 0.5em 0;
 }
 
 h2 {
-    color: deepskyblue;
+    color: white;
 }
 
-input[type="text"] {
-    display: block;
-    width: 25em;
-    box-sizing: border-box;
-    border: 1px solid grey;
-    margin-bottom: 0.5em;
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
 }
