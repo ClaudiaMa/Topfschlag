@@ -7,6 +7,6 @@ package topfschlag.ejb;
 public class AllergieBean {
     
     String hallihalllo;
-            
+    String test;
  
 }
