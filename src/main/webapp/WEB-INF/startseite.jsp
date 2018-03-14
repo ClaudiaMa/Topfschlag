@@ -5,9 +5,9 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 
 <template:base>
-    
-     <jsp:attribute name="content">
-         test
+
+    <jsp:attribute name="content">
+        <p>Es wurden noch keine Ergebnisse gefunden. Bitte erst filtern :-)</p>
     </jsp:attribute>
-    
+
 </template:base>

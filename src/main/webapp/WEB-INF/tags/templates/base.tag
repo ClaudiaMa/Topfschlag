@@ -3,6 +3,8 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 
+<%@attribute name="content" fragment="true"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,8 +26,7 @@
         <div class="container" id="container1" > 
             
             <h1>Anlass</h1>
-            <form>
-
+            <form action="filter">
                 <fieldset>
                     <ul>
                         <li>
@@ -47,9 +48,9 @@
                     </ul>
                 </fieldset>
             </form>
+            
             <h1>Zutaten</h1>
             <form action="filter">
-
                 <fieldset>
                     <ul>
                         <li>
@@ -75,7 +76,6 @@
 
             <h1>Allergien</h1>
             <form action="filter">
-
                 <fieldset>
                     <ul>
                         <li>
@@ -100,9 +100,6 @@
         <!-- Rezeptübersicht-->
 
         <div class="container" id="conatiner2">            
-
-
-            <%-- Hauptinhalt der Seite --%>
             <main>    
                 <jsp:invoke fragment="content"/>
             </main>
